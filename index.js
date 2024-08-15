@@ -73,7 +73,7 @@ app.post("/stk", generateToken, async (req, res) => {
         PartyB: shortcode,
         PhoneNumber: `254${phone}`,
         CallBackURL: "https://mydomain.com/pat",
-        AccountReference: `254${phone}`,
+        AccountReference: "Lawrence Digital Solutions",
         TransactionDesc: "Test",
       },
       {
